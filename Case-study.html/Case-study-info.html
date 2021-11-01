@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phú Decor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+        integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #decor {
+            background-color: burlywood;
+            width: 100%;
+            height: 100px;
+        }
+
+        #logo {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            margin-left: -1420px;
+            border-radius: 100%;
+            margin-top: 5px;
+        }
+
+        #info {
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 100 px;
+
+        }
+
+        .info {
+            padding-top: 30px;
+        }
+
+        #baner {
+            width: 100%;
+            height: 160px;
+            opacity: 0.7;
+        }
+
+        #trangchu {
+            background-color: burlywood;
+
+
+        }
+
+        #trangchu td {
+            transition-duration: 0.3s;
+        }
+
+        #trangchu td:hover {
+            transform: scale(1.2);
+            background-color: white;
+            color: blacks;
+        }
+
+        .trangchu {
+            height: 50px;
+            width: 75%;
+            text-align: center;
+        }
+
+        .mau {
+            border-left: 1px solid white;
+
+        }
+
+        .hinhdep {
+            width: 72%;
+            height: 400px;
+            padding-left: 192px;
+            padding-top: 5px;
+        }
+
+        #danhmuc {
+            margin-left: 190px;
+            width: 255px;
+            float: left;
+        }
+
+        .gtsp {
+            width: 829px;
+            min-height: 500px;
+            float: left;
+        }
+
+        .dmsp {
+            width: 200px;
+            height: 600px;
+            background-color: rgb(209, 156, 41);
+            color: white;
+            transition-duration: 0.3s;
+        }
+
+        .dmsp td:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .sp {
+            padding-left: 30px;
+            border-top: 1px solid white;
+        }
+
+        .tdSP {
+            width: 274px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .hinhanhSP {
+            width: 274px;
+            height: 154px;
+        }
+
+        .dn {
+            transition-duration: 0.3s;
+        }
+
+        .dn:hover {
+            color: white;
+        }
+
+        .dkkhachhang {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 456px;
+
+        }
+
+        .bangdk {
+            background-color: rgb(226, 226, 221);
+            border-radius: 5%;
+            width: 600px;
+            height: 400px;
+
+        }
+
+        .dangnhap {
+            position: absolute;
+            margin-top: -455px;
+            margin-left: 501px;
+
+
+        }
+
+        .boxdangnhap {
+            height: 200px;
+            width: 500px;
+            border-radius: 5%;
+            background-color: rgb(226, 221, 221);
+        }
+
+        #menu1 {
+            position: absolute;
+            width: 56px;
+            min-height: 48px;
+            background-color: white;
+            margin-top: -197px;
+            margin-left: 1362px;
+            border-radius: 10%;
+
+        }
+
+        .bangdk1 {
+            background-color: rgb(226, 226, 221);
+            border-radius: 5%;
+            width: 600px;
+            height: 400px;
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 456px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='decor'>
+        <div style="margin-left: 68px; padding-top: 28px; width: 300px; float: left;font-size: large;">
+            <i> <a href="Case-study.html" style="text-decoration: none;color:black" id="trangchu1">Chuyên tư vấn, thi
+                    công, thiết kế
+                    <br>
+                    &#160;các sản phẩm trang trí nội thất</a></i>
+
+        </div>
+        <table id='info' border="0">
+            <tr>
+                <td class="info">
+                    <i class="fas fa-map-marker-alt"></i> 91 Lý Thường Kiệt, Tp. Đông Hà, Tỉnh Quảng Trị
+                </td>
+                <td style="padding-left: 20px;" class="info">
+                    <i class="fas fa-phone-alt"></i> 0974.668.074 - 0905.123.999
+                </td>
+                <td style="padding-left: 20px;" class="info">
+                    <i class="far fa-envelope"></i> Lehungphu1412@gmail.com
+                </td>
+                <td style="width: 50px;"></td>
+                <td style="width: 200px; text-align: center;" rowspan="2">
+                    <a style="font-size: large;"><i class="fas fa-portrait"></i> Khách hàng </a><br>
+                    <div id='dndk'>
+                        <a onclick="dangnhap()" class="dn">Đăng Nhập</a>/
+                        <a onclick="dangki()" class="dn">Đăng Kí</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding-top: 22px;" colspan="4">
+                    <i class="fab fa-facebook"></i> <a style="color: black;"
+                        href="https://www.facebook.com/Bengidecor">Facebook.com/phudecor</a> &ensp;
+                    <i class="fab fa-instagram"></i> <a style="color: black;"
+                        href="https://www.instagram.com/">Hp_sama</a>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="margin-top: 5px;">
+        <img src="cropped-noi-that-dong-gia-1-1440x809.jpg" id='baner'>
+        <img src="eae65a226ac39e9dc7d2.jpg" id='logo'>
+    </div>
+    <div id='menu'>
+
+    </div>
+    <div id='trangchu'>
+        <table class="trangchu" border="0" align="center">
+            <tr>
+                <td class="mau">
+                    <a href="Case-study.html" style="text-decoration: none;color: black;">Trang chủ</a>
+                </td>
+                <td class="mau">
+                    Giới thiệu
+                </td>
+                <td class="mau">
+                    Sản phẩm
+                </td>
+                <td class="mau">
+                    Công trình thi công
+                </td>
+                <td class="mau">
+                    Chính sách đại lý
+                </td>
+                <td class="mau">
+                    Tin tức
+                </td>
+                <td class="mau">
+                    Tuyển dụng
+                </td>
+                <td class="mau">
+                    Liên hệ
+                </td>
+                <td class="mau">
+                    <input style="height: 70%;" type="text" id='timkiem'><button
+                        style="height: 80%;background-color: burlywood;" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id='info1' style="display: block;">
+        <table border="0" class='bangdk1'>
+            <tr>
+                <td colspan="2" style="text-align: center; height: 40px;">
+                    <h2>Thông tin thành viên</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;text-align: right;"> Họ </td>
+                <td>
+                    <span id='info_ho'></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;text-align: right;"> Tên</td>
+                <td>
+                    <span id='info_ten'></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;text-align: right;">
+                    Email
+                </td>
+                <td>
+                    <span id='info_email'></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;text-align: right;"> Mật khẩu</td>
+                <td>
+                    <span id='info_pass'></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;text-align: right;">Ngày sinh</td>
+                <td>
+                    <span id='info_ngay'></span>/<span id='info_thang'></span>/<span id='info_nam'></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;text-align: right;"> Giới tính </td>
+                <td>
+                    <span id='info_gioitinh'></span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input style='width: 20%;height: 70%;' type="button" value="Thay Đổi" id="thay_doi"
+                        onclick="editUser()">
+                    <a href="Case-study.html"><input style='width: 20%;height: 70%;' type="button" value="Trở Về"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="dangkikhachhang" style="display: none;">
+        <form name="dangkikh" id="dkkh" class="dkkhachhang">
+            <table border="0" class='bangdk'>
+                <tr>
+                    <td colspan="2" style="text-align: center; height: 40px;">
+                        <h2>Chỉnh sửa thông tin thành viên</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;"> Nhập lại Họ </td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="text" id="ho" name="ho"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;">Nhập lại Tên</td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="text" id="ten" name="ten"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;">
+                        Nhập lại Email
+                    </td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="text" id="Email" name="email"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;"> Đổi Mật khẩu</td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="password" id="mk" name="mk"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;">Nhập lại Ngày sinh</td>
+                    <td>
+                        <select id="ngay">
+                            <script>
+                                let a = '';
+                                for (let i = 1; i <= 31; i++) {
+                                    a += '<option value="' + i + '">' + i + '</option>';
+                                }
+                                document.getElementById("ngay").innerHTML = a;
+                            </script>
+                        </select>
+                        <select id="thang">
+                            <script>
+                                let b = '';
+                                for (let i = 1; i <= 12; i++) {
+                                    b += '<option value="' + i + '">' + 'Tháng ' + i + '</option>';
+                                }
+                                document.getElementById("thang").innerHTML = b;
+                            </script>
+                        </select>
+                        <select id="nam">
+                            <script>
+                                let c = '';
+                                for (let i = 2010; i >= 1900; i--) {
+                                    c += '<option value="' + i + '">' + 'Năm ' + i + '</option>';
+                                }
+                                document.getElementById("nam").innerHTML = c;
+                            </script>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;"> Giới tính </td>
+                    <td>
+                        <input type="radio" name='gioi_tinh' value="Nam" id='gtnam' checked>Nam <input type="radio"
+                            name='gioi_tinh' value="Nu">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <a href="Case-study.html"><input style='width: 20%;height: 70%;' type="button" value="Lưu"
+                                id="luu" onclick="saveUser()"></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+        function infoUser() {
+            let currentUser = localStorage.getItem("currentUser");
+            currentUser = JSON.parse(currentUser);
+            document.getElementById('info_ho').innerHTML = currentUser[0];
+            document.getElementById('info_ten').innerHTML = currentUser[1];
+            document.getElementById('info_email').innerHTML = currentUser[2];
+            document.getElementById('info_pass').innerHTML = currentUser[3];
+            document.getElementById('info_ngay').innerHTML = currentUser[4];
+            document.getElementById('info_thang').innerHTML = currentUser[5];
+            document.getElementById('info_nam').innerHTML = currentUser[6];
+            document.getElementById('info_gioitinh').innerHTML = currentUser[7];
+        }
+        infoUser();
+        function editUser() {
+            document.getElementById('info1').style.display = 'none';
+            document.getElementById('dangkikhachhang').style.display = 'block';
+
+            let currentUser = localStorage.getItem("currentUser");
+            currentUser = JSON.parse(currentUser);
+
+            document.getElementById('ho').value = currentUser[0];
+            document.getElementById('ten').value = currentUser[1];
+            document.getElementById('Email').value = currentUser[2];
+            document.getElementById('mk').value = currentUser[3];
+            document.getElementById('ngay').value = currentUser[4];
+            document.getElementById('thang').value = currentUser[5];
+            document.getElementById('nam').value = currentUser[6];
+            document.getElementById('gtnam').value = currentUser[7];
+        }
+
+        function saveUser() {
+            let database = localStorage.getItem("database");
+            database = JSON.parse(database);
+            let currentUser = localStorage.getItem("currentUser");
+            currentUser = JSON.parse(currentUser);
+
+            for (let i = 0; i < database.length; i++) {
+                if (currentUser[2] == database[i].email) {
+                    database[i].ho = document.getElementById('ho').value;
+                    database[i].ten = document.getElementById('ten').value;
+                    database[i].email = document.getElementById('Email').value;
+                    database[i].ngay = document.getElementById('ngay').value;
+                    database[i].thang = document.getElementById('thang').value;
+                    database[i].nam = document.getElementById('nam').value;
+                    let x = document.getElementById('gtnam');
+                    if (x.checked) {
+                        database[i].gioitinh = 'nam';
+                    } else {
+                        database[i].gioitinh = 'nữ';
+                    }
+                    localStorage.setItem("database", JSON.stringify(database));
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

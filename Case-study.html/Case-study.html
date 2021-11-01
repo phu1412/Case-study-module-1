@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phú Decor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+        integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #decor {
+            background-color: burlywood;
+            width: 100%;
+            height: 100px;
+        }
+
+        #logo {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            margin-left: -1420px;
+            border-radius: 100%;
+            margin-top: 5px;
+        }
+
+        #info {
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 100 px;
+
+        }
+
+        .info {
+            padding-top: 30px;
+        }
+
+        #baner {
+            width: 100%;
+            height: 160px;
+            opacity: 0.7;
+        }
+
+        #trangchu {
+            background-color: burlywood;
+
+
+        }
+
+        #trangchu td {
+            transition-duration: 0.3s;
+        }
+
+        #trangchu td:hover {
+            transform: scale(1.2);
+            background-color: white;
+            color: blacks;
+        }
+
+        .trangchu {
+            height: 50px;
+            width: 75%;
+            text-align: center;
+        }
+
+        .mau {
+            border-left: 1px solid white;
+
+        }
+
+        .hinhdep {
+            width: 72%;
+            height: 400px;
+            padding-left: 192px;
+            padding-top: 5px;
+        }
+
+        #danhmuc {
+            margin-left: 190px;
+            width: 255px;
+            float: left;
+        }
+
+        .gtsp {
+            width: 829px;
+            min-height: 500px;
+            float: left;
+        }
+
+        .dmsp {
+            width: 200px;
+            height: 600px;
+            background-color: rgb(209, 156, 41);
+            color: white;
+            transition-duration: 0.3s;
+        }
+
+        .dmsp td:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .sp {
+            padding-left: 30px;
+            border-top: 1px solid white;
+        }
+
+        .tdSP {
+            width: 274px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .hinhanhSP {
+            width: 274px;
+            height: 154px;
+        }
+
+        .dn {
+            transition-duration: 0.3s;
+        }
+
+        .dn:hover {
+            color: white;
+        }
+
+        .dkkhachhang {
+            position: absolute;
+            margin-top: -541px;
+            margin-left: 496px;
+
+        }
+
+        .bangdk {
+            background-color: rgb(193, 243, 243);
+            border-radius: 5%;
+            width: 600px;
+            height: 400px;
+
+        }
+
+        #dangnhap {
+            position: absolute;
+            margin-top: -455px;
+            margin-left: 501px;
+            background-color: rgb(193, 243, 243);
+            height: 250px;
+            border-radius: 5%;
+        }
+
+        .boxdangnhap {
+
+            height: 200px;
+            width: 500px;
+
+        }
+
+        #menu1 {
+            position: absolute;
+            width: 56px;
+            min-height: 48px;
+            background-color: white;
+            margin-top: -197px;
+            margin-left: 1362px;
+            border-radius: 10%;
+
+        }
+
+        #bangKH {
+            position: absolute;
+            width: 300px;
+            min-height: 100px;
+            background-color: rgb(193, 243, 243);
+            margin-top: -681px;
+            margin-left: 1196px;
+            border-radius: 5%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id='decor'>
+        <div style="margin-left: 68px; padding-top: 28px; width: 300px; float: left;font-size: large;">
+            <a href="Case-study.html" style="text-decoration: none;color: black;"><i> Chuyên tư vấn, thi công, thiết kế
+                    <br>
+                    &#160;các sản phẩm trang trí nội thất</i></a>
+        </div>
+        <table id='info' border="0">
+            <tr>
+                <td class="info">
+                    <i class="fas fa-map-marker-alt"></i> 91 Lý Thường Kiệt, Tp. Đông Hà, Tỉnh Quảng Trị
+                </td>
+                <td style="padding-left: 20px;" class="info">
+                    <i class="fas fa-phone-alt"></i> 0974.668.074 - 0905.123.999
+                </td>
+                <td style="padding-left: 20px;" class="info">
+                    <i class="far fa-envelope"></i> Lehungphu1412@gmail.com
+                </td>
+                <td style="width: 50px;"></td>
+                <td style="width: 200px; text-align: center;" rowspan="2">
+                    <a style="font-size: large;" onclick="printAdminUser()"><i class="fas fa-portrait"></i> Khách hàng
+                    </a><br>
+                    <div id='dndk'>
+                        <a onclick="dangnhap()" class="dn">Đăng Nhập</a>/
+                        <a onclick="dangki()" class="dn">Đăng Kí</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding-top: 22px;" colspan="4">
+                    <i class="fab fa-facebook"></i> <a style="color: black;"
+                        href="https://www.facebook.com/Bengidecor">Facebook.com/phudecor</a> &ensp;
+                    <i class="fab fa-instagram"></i> <a style="color: black;"
+                        href="https://www.instagram.com/">Hp_sama</a>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="margin-top: 5px;">
+        <img src="cropped-noi-that-dong-gia-1-1440x809.jpg" id='baner'>
+        <img src="eae65a226ac39e9dc7d2.jpg" id='logo'>
+    </div>
+    <div id='menu'>
+
+    </div>
+    <div id='trangchu'>
+        <table class="trangchu" border="0" align="center">
+            <tr>
+                <td class="mau" onclick='trangchu()'>
+                    Trang chủ
+                </td>
+                <td class="mau">
+                    Giới thiệu
+                </td>
+                <td class="mau">
+                    Sản phẩm
+                </td>
+                <td class="mau">
+                    Công trình thi công
+                </td>
+                <td class="mau">
+                    Chính sách đại lý
+                </td>
+                <td class="mau">
+                    Tin tức
+                </td>
+                <td class="mau">
+                    Tuyển dụng
+                </td>
+                <td class="mau">
+                    Liên hệ
+                </td>
+                <td class="mau">
+                    <input style="height: 70%;" type="text" id='timkiem'><button
+                        style="height: 80%;background-color: burlywood;" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <img src="h0.jpg" id='chayhinh' class="hinhdep">
+    </div>
+    <script>
+        function chayhinh() {
+            let tephinh = ["h0.jpg", "h5.png", "h2.jpg", "h6.jpg"];
+            document.getElementById('chayhinh').src = tephinh[Math.floor(Math.random() * tephinh.length)];
+
+        }
+        setInterval(chayhinh, 2000);
+    </script>
+
+    <div id=danhmuc>
+        <table border="0" class="dmsp">
+            <tr>
+                <td style="font-size: large;">
+                    &ensp; <i class="fas fa-list"></i> &#160;Danh mục sản phẩm
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showSF()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Sofa
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showTB()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Tủ bếp
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showBA()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Bàn ăn
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showSG()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Sàn gỗ
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showTT()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Tranh tường
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showTS()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Thảm trải sàn
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick="showTD()">
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Tủ đựng đồ
+                </td>
+            </tr>
+            <tr>
+                <td class="sp" onclick='showKG()'>
+                    &ensp; <i class="fas fa-landmark"></i> &#160;Kệ gỗ trang trí
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        class sanpham {
+            constructor(img, name, ma, price) {
+                this.name = name;
+                this.img = img;
+                this.price = price;
+                this.ma = ma;
+            }
+            getName() {
+                return this.name;
+            }
+            getImg() {
+                return this.img;
+            }
+            getMa() {
+                return this.ma;
+            }
+            getPrice() {
+                return this.price;
+            }
+            setPrice(xx) {
+                this.price = xx;
+            }
+            setImg(x) {
+                this.img = x;
+            }
+        }
+        let SPsofa = [];
+        SPsofa.push(new sanpham("sp1.jpg", "Sofa", 'sf1', '15.700.000đ'));
+        SPsofa.push(new sanpham("sp2.jpg", "Sofa", 'sf2', '16.700.000đ'));
+        SPsofa.push(new sanpham("sp3.jpg", "Sofa", 'sf3', '14.700.000đ'));
+        SPsofa.push(new sanpham("sp4.jpg", "Sofa", 'sf4', '19.700.000đ'));
+        SPsofa.push(new sanpham("sp5.jpg", "Sofa", 'sf5', '15.000.000đ'));
+        SPsofa.push(new sanpham("sp6.jpg", "Sofa", 'sf6', '17.900.000đ'));
+        SPsofa.push(new sanpham("sp7.jpg", "Sofa", 'sf7', '21.700.000đ'));
+
+        function sliceIntoChunks(arr, chunkSize) {
+            const res = [];
+            for (let i = 0; i < arr.length; i += chunkSize) {
+                const chunk = arr.slice(i, i + chunkSize);
+                res.push(chunk);
+            }
+            return res;
+        }
+
+        let HTsofa = sliceIntoChunks(SPsofa, 3);
+
+        function showSF() {
+
+            let temp = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Sofa của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTsofa.length; i++) {
+                temp += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTsofa[i][j] != 'undefined') {
+                        temp += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTsofa[i][j].img + '">' + '<br>' +
+                            HTsofa[i][j].name + '&ensp;' + HTsofa[i][j].ma + '<br>' + HTsofa[i][j].price + '</td>';
+                    }
+                }
+                temp += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp;
+        }
+
+        let SPtubep = [];
+
+        SPtubep.push(new sanpham("tubep1.jpg", "Tủ Bếp", 'TB001', '1.800.000đ'));
+        SPtubep.push(new sanpham("tubep2.jpg", "Tủ Bếp", 'TB002', '2.700.000đ'));
+        SPtubep.push(new sanpham("tubep3.jpg", "Tủ Bếp", 'TB003', '14.700.000đ'));
+        SPtubep.push(new sanpham("tubep4.jpg", "Tủ Bếp", 'TB004', '19.700.000đ'));
+        SPtubep.push(new sanpham("tubep5.jpg", "Tủ Bếp", 'TB005', '15.000.000đ'));
+        SPtubep.push(new sanpham("tubep6.jpg", "Tủ Bếp", 'TB006', '17.900.000đ'));
+        SPtubep.push(new sanpham("tubep7.jpg", "Tủ Bếp", 'TB007', '21.700.000đ'));
+        SPtubep.push(new sanpham("tubep8.jpg", "Tủ Bếp", 'TB008', '21.700.000đ'));
+
+        let HTtubep = sliceIntoChunks(SPtubep, 3);
+
+        function showTB() {
+
+            let temp1 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Tủ Bếp của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTtubep.length; i++) {
+                temp1 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTtubep[i][j] != 'undefined') {
+                        temp1 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTtubep[i][j].img + '">' + '<br>' +
+                            HTtubep[i][j].name + '&ensp;' + HTtubep[i][j].ma + '<br>' + HTtubep[i][j].price + '</td>';
+                    }
+                }
+                temp1 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp1;
+        }
+
+        let SPbanan = [];
+
+        SPbanan.push(new sanpham("banan1.jpg", "Bàn Ăn", 'BA001', '11.500.000đ'));
+        SPbanan.push(new sanpham("banan2.jpg", "Bàn Ăn", 'BA002', '5.500.000đ'));
+        SPbanan.push(new sanpham("banan3.jpg", "Bàn Ăn", 'BA003', '7.600.000đ'));
+        SPbanan.push(new sanpham("banan4.jpg", "Bàn Ăn", 'BA004', '1.900.000đ'));
+        SPbanan.push(new sanpham("banan5.jpg", "Bàn Ăn", 'BA005', '4.900.000đ'));
+        SPbanan.push(new sanpham("banan6.jpg", "Bàn Ăn", 'BA006', '5.500.000đ'));
+        SPbanan.push(new sanpham("banan7.jpg", "Bàn Ăn", 'BA007', '4.800.000đ'));
+        SPbanan.push(new sanpham("banan8.jpg", "Bàn Ăn", 'BA008', '6.500.000đ'));
+        SPbanan.push(new sanpham("banan9.jpg", "Bàn Ăn", 'BA009', '4.700.000đ'));
+        SPbanan.push(new sanpham("banan10.jpg", "Bàn Ăn", 'BA0010', '2.400.000đ'));
+        SPbanan.push(new sanpham("banan11.jpg", "Bàn Ăn", 'BA0011', '3.500.000đ'));
+
+        let HTbanan = sliceIntoChunks(SPbanan, 3);
+
+        function showBA() {
+
+            let temp2 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Bàn Ăn của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTbanan.length; i++) {
+                temp2 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTbanan[i][j] != 'undefined') {
+                        temp2 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTbanan[i][j].img + '">' + '<br>' +
+                            HTbanan[i][j].name + '&ensp;' + HTbanan[i][j].ma + '<br>' + HTbanan[i][j].price + '</td>';
+                    }
+                }
+                temp2 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp2;
+        }
+
+        let SPsango = [];
+
+        SPsango.push(new sanpham("sg1.jpg", "Sàn Gỗ", 'SG001', '195.000đ/m2'));
+        SPsango.push(new sanpham("sg2.jpg", "Sàn Gỗ", 'SG002', '195.000đ/m2'));
+        SPsango.push(new sanpham("sg3.jpg", "Sàn Gỗ", 'SG003', '460.000đ/m2'));
+        SPsango.push(new sanpham("sg4.jpg", "Sàn Gỗ", 'SG004', '705.000đ/m2'));
+        SPsango.push(new sanpham("sg5.jpg", "Sàn Gỗ", 'SG005', '280.000đ/m2'));
+        SPsango.push(new sanpham("sg6.jpg", "Sàn Gỗ", 'SG006', '300.000đ/m2'));
+
+        let HTsango = sliceIntoChunks(SPsango, 3);
+
+        function showSG() {
+
+            let temp3 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Sàn Gỗ của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTsango.length; i++) {
+                temp3 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTsango[i][j] != 'undefined') {
+                        temp3 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTsango[i][j].img + '">' + '<br>' +
+                            HTsango[i][j].name + '&ensp;' + HTsango[i][j].ma + '<br>' + HTsango[i][j].price + '</td>';
+                    }
+                }
+                temp3 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp3;
+        }
+
+        let SPtranhtuong = [];
+
+        SPtranhtuong.push(new sanpham("t1.jpg", "Tranh tường", 'TT001', '1.190.000đ'));
+        SPtranhtuong.push(new sanpham("t2.jpg", "Tranh tường", 'TT002', '1.490.000đ'));
+        SPtranhtuong.push(new sanpham("t3.jpg", "Tranh tường", 'TT003', '1.080.000đ'));
+        SPtranhtuong.push(new sanpham("t4.jpg", "Tranh tường", 'TT004', '1.520.000đ'));
+        SPtranhtuong.push(new sanpham("t5.jpg", "Tranh tường", 'TT005', '1.170.000đ'));
+        SPtranhtuong.push(new sanpham("t6.jpg", "Tranh tường", 'TT006', '1.590.000đ'));
+        SPtranhtuong.push(new sanpham("t7.jpg", "Tranh tường", 'TT007', '1.160.000đ'));
+        SPtranhtuong.push(new sanpham("t8.jpg", "Tranh tường", 'TT008', '1.590.000đ'));
+        SPtranhtuong.push(new sanpham("t9.jpg", "Tranh tường", 'TT009', '730.000đ'));
+        SPtranhtuong.push(new sanpham("t10.jpg", "Tranh tường", 'TT010', '230.000đ'));
+        SPtranhtuong.push(new sanpham("t11.jpg", "Tranh tường", 'TT011', '460.000đ'));
+        SPtranhtuong.push(new sanpham("t12.jpg", "Tranh tường", 'TT012', '550.000đ'));
+        SPtranhtuong.push(new sanpham("t13.jpg", "Tranh tường", 'TT013', '450.000đ'));
+        SPtranhtuong.push(new sanpham("t14.jpg", "Tranh tường", 'TT014', '1.060.000đ'));
+
+        let HTtranhtuong = sliceIntoChunks(SPtranhtuong, 3);
+
+        function showTT() {
+
+            let temp4 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Tranh Tường của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTtranhtuong.length; i++) {
+                temp4 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTtranhtuong[i][j] != 'undefined') {
+                        temp4 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTtranhtuong[i][j].img + '">' + '<br>' +
+                            HTtranhtuong[i][j].name + '&ensp;' + HTtranhtuong[i][j].ma + '<br>' + HTtranhtuong[i][j].price + '</td>';
+                    }
+                }
+                temp4 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp4;
+        }
+
+        let SPtham = [];
+
+        SPtham.push(new sanpham("tham1.jpg", "Thảm Sàn", 'Ts001', '490.000đ'));
+        SPtham.push(new sanpham("tham2.jpg", "Thảm Sàn", 'Ts002', '490.000đ'));
+        SPtham.push(new sanpham("tham3.jpg", "Thảm Sàn", 'Ts003', '580.000đ'));
+        SPtham.push(new sanpham("tham4.jpg", "Thảm Sàn", 'Ts004', '520.000đ'));
+        SPtham.push(new sanpham("tham5.jpg", "Thảm Sàn", 'Ts005', '570.000đ'));
+        SPtham.push(new sanpham("tham6.jpg", "Thảm Sàn", 'Ts006', '590.000đ'));
+        SPtham.push(new sanpham("tham7.jpg", "Thảm Sàn", 'Ts007', '460.000đ'));
+        SPtham.push(new sanpham("tham8.jpg", "Thảm Sàn", 'Ts008', '690.000đ'));
+
+        let HTtham = sliceIntoChunks(SPtham, 3);
+
+        function showTS() {
+
+            let temp5 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Thảm Trải Sàn của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTtham.length; i++) {
+                temp5 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTtham[i][j] != 'undefined') {
+                        temp5 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTtham[i][j].img + '">' + '<br>' +
+                            HTtham[i][j].name + '&ensp;' + HTtham[i][j].ma + '<br>' + HTtham[i][j].price + '</td>';
+                    }
+                }
+                temp5 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp5;
+        }
+
+        let SPtudo = [];
+
+        SPtudo.push(new sanpham("td1.jpg", "Tủ Đồ", 'TD001', '1.900.000đ'));
+        SPtudo.push(new sanpham("td2.jpg", "Tủ Đồ", 'TD002', '17.490.000đ'));
+        SPtudo.push(new sanpham("td3.jpg", "Tủ Đồ", 'TD003', '2.580.000đ'));
+        SPtudo.push(new sanpham("td4.jpg", "Tủ Đồ", 'TD004', '1.520.000đ'));
+        SPtudo.push(new sanpham("td5.jpg", "Tủ Đồ", 'TD005', '1.870.000đ'));
+        SPtudo.push(new sanpham("td6.jpg", "Tủ Đồ", 'TD006', '1.590.000đ'));
+        SPtudo.push(new sanpham("td7.jpg", "Tủ Đồ", 'TD007', '14.460.000đ'));
+        SPtudo.push(new sanpham("td8.jpg", "Tủ Đồ", 'TD008', '10.690.000đ'));
+        SPtudo.push(new sanpham("td9.jpg", "Tủ Đồ", 'TD009', '3.690.000đ'));
+
+        let HTtudo = sliceIntoChunks(SPtudo, 3);
+
+        function showTD() {
+
+            let temp6 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Tủ Đồ của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTtudo.length; i++) {
+                temp6 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTtudo[i][j] != 'undefined') {
+                        temp6 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTtudo[i][j].img + '">' + '<br>' +
+                            HTtudo[i][j].name + '&ensp;' + HTtudo[i][j].ma + '<br>' + HTtudo[i][j].price + '</td>';
+                    }
+                }
+                temp6 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp6;
+        }
+
+        let SPkego = [];
+
+        SPkego.push(new sanpham("kg1.jpg", "Kệ", 'KG001', '300.000đ'));
+        SPkego.push(new sanpham("kg2.jpg", "Kệ", 'KG002', '290.000đ'));
+        SPkego.push(new sanpham("kg3.jpg", "Kệ", 'KG003', '480.000đ'));
+        SPkego.push(new sanpham("kg4.jpg", "Kệ", 'KG004', '320.000đ'));
+        SPkego.push(new sanpham("kg5.jpg", "Kệ", 'KG005', '170.000đ'));
+        SPkego.push(new sanpham("kg6.jpg", "Kệ", 'KG006', '190.000đ'));
+        SPkego.push(new sanpham("kg7.jpg", "Kệ", 'KG007', '360.000đ'));
+        SPkego.push(new sanpham("kg8.jpg", "Kệ", 'KG008', '290.000đ'));
+        SPkego.push(new sanpham("kg9.jpg", "Kệ", 'KG009', '290.000đ'));
+
+        let HTkego = sliceIntoChunks(SPkego, 3);
+
+        function showKG() {
+
+            let temp7 = '<tr> <td colspan="3"><h1 align="center"> Các sản phẩm Kệ Gỗ của Phú Decor</h1><br><br><br></td></tr>';
+            for (let i = 0; i < HTkego.length; i++) {
+                temp7 += '<tr>';
+                for (let j = 0; j < 3; j++) {
+                    if (typeof HTkego[i][j] != 'undefined') {
+                        temp7 += '<td class= "tdSP"><img class = "hinhanhSP" src="' + HTkego[i][j].img + '">' + '<br>' +
+                            HTkego[i][j].name + '&ensp;' + HTkego[i][j].ma + '<br>' + HTkego[i][j].price + '</td>';
+                    }
+                }
+                temp7 += '</tr>';
+            }
+            document.getElementById("nd").innerHTML = '';
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("showSP").innerHTML = temp7;
+        }
+
+        function trangchu() {
+            document.getElementById("showSP").innerHTML = '';
+            document.getElementById("nd").innerHTML = `<div id="nd">
+            <h1 style="text-align: center;color: red;">Tư Vấn & Thiết Kế Thi Công Trang Trí Nội Thất Uy Tín</h1>
+            <br> <img src="gt.png" style="height: 400px;width: 700px;padding-left: 46px ;">
+            <br><br><br><br> <img src="Capture.PNG"
+                style="height: 200px; width: 800px;padding-left: 10px;">
+        </div>`
+        }
+
+    </script>
+
+    <div id='destop' class="gtsp">
+        <div id="nd">
+            <h1 style="text-align: center;color: red;">Tư Vấn & Thiết Kế Thi Công Trang Trí Nội Thất Uy Tín</h1>
+            <br> <img src="gt.png"
+                style="height: 400px;width: 700px;padding-left: 46px ;">
+            <br><br><br><br> <img src="Capture.PNG"
+                style="height: 200px; width: 800px;padding-left: 10px;">
+        </div>
+        <table>
+            <tbody id="showSP">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div id='dangnhap' style="display: none;">
+        <form style="padding-top: 20px;">
+            <table border="0" class="boxdangnhap">
+                <tr>
+                    <th colspan="2" style="text-align: center;">
+                        Đăng nhập vào tài khoản
+                    </th>
+                </tr>
+                <tr>
+                    <td style="padding-left: 50px; width: 30%;"> Email</td>
+                    <td><input style="width: 80%;height: 55%;" type="text" id='ema'></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 50px; width: 30%;">Password</td>
+                    <td><input style="width: 80%;height: 55%;" type="password" id='pas'></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input style="width: 40%;" type="button" value="Đăng Nhập" onclick="login()">
+                        <input style="width: 40%;" type="button" value="Quay Lại" onclick="tatdangnhap()">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        Quên mật khẩu ?
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+    <div id="dangkikhachhang" style="display: none;">
+        <form name="dangkikh" id="dkkh" class="dkkhachhang">
+            <table border="0" class='bangdk'>
+                <tr>
+                    <td colspan="2" style="text-align: center; height: 40px;">
+                        <h2>Đăng kí thành viên khách hàng</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;"> Họ </td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="text" id="ho" name="ho"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;">Tên</td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="text" id="ten" name="ten"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;">
+                        Email
+                    </td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="text" id="Email" name="email"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;"> Mật khẩu</td>
+                    <td>
+                        <span><input style="width: 80%;height: 80%;" type="password" id="mk" name="mk"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;">Ngày sinh</td>
+                    <td>
+                        <select id="ngay">
+                            <script>
+                                let a = '';
+                                for (let i = 1; i <= 31; i++) {
+                                    a += '<option value="' + i + '">' + i + '</option>';
+                                }
+                                document.getElementById("ngay").innerHTML = a;
+                            </script>
+                        </select>
+                        <select id="thang">
+                            <script>
+                                let b = '';
+                                for (let i = 1; i <= 12; i++) {
+                                    b += '<option value="' + i + '">' + 'Tháng ' + i + '</option>';
+                                }
+                                document.getElementById("thang").innerHTML = b;
+                            </script>
+                        </select>
+                        <select id="nam">
+                            <script>
+                                let c = '';
+                                for (let i = 2010; i >= 1900; i--) {
+                                    c += '<option value="' + i + '">' + 'Năm ' + i + '</option>';
+                                }
+                                document.getElementById("nam").innerHTML = c;
+                            </script>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;text-align: right;"> Giới tính </td>
+                    <td>
+                        <input type="radio" name='gioi_tinh' value="Nam" id='gtnam' checked>Nam <input type="radio"
+                            name='gioi_tinh' value="Nu">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input style='width: 20%;height: 70%;' type="button" value="Đăng Kí" id="dangki"
+                            onclick="res()">
+                        <input style='width: 20%;height: 70%;' type="reset" value="Đặt Lại">
+                        <input style='width: 20%;height: 70%;' type="button" value="Trở Về" onclick="tatdangki()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+        function dangnhap() {
+            document.getElementById('dangkikhachhang').style.display = 'none';
+            document.getElementById('dangnhap').style.display = 'block';
+        }
+        function tatdangnhap() {
+            document.getElementById('dangnhap').style.display = 'none';
+        }
+        function dangki() {
+            document.getElementById('dangnhap').style.display = 'none';
+            document.getElementById('dangkikhachhang').style.display = 'block';
+        }
+        function tatdangki() {
+            document.getElementById('dangkikhachhang').style.display = 'none';
+        }
+
+        const database = [];
+        class userdata {
+            constructor(ho, ten, email, passwork, ngay, thang, nam, gioitinh) {
+                this.ho = ho;
+                this.ten = ten;
+                this.email = email;
+                this.passwork = passwork;
+                this.ngay = ngay;
+                this.thang = thang;
+                this.nam = nam;
+                this.gioitinh = gioitinh;
+            }
+        }
+        function res() {
+            let database = localStorage.getItem("database");
+            database = JSON.parse(database);
+            let a = document.getElementById('ho').value;
+            let b = document.getElementById('ten').value;
+            let c = document.getElementById('Email').value;
+            let d = document.getElementById('mk').value;
+            let e = document.getElementById('ngay').value;
+            let f = document.getElementById('thang').value;
+            let g = document.getElementById('nam').value;
+            let h = document.getElementById('gtnam');
+            let gt = '';
+            if (h.checked) {
+                gt = 'nam';
+            } else {
+                gt = 'nữ';
+            }
+            if (a != '' && b != '' && c != '' && d != '' && e != '' && f != '' && g != '') {
+                database.push(new userdata(a, b, c, d, e, f, g, gt));
+                localStorage.setItem("database", JSON.stringify(database));
+                document.getElementById('dangkikhachhang').style.display = 'none';
+                alert('Đăng kí thành công');
+                document.getElementById('dangnhap').style.display = 'block';
+                AdminUser();
+            }
+
+        }
+
+        const currentUser = [];
+        function login() {
+            let database = localStorage.getItem("database");
+            database = JSON.parse(database);
+
+            let a = document.getElementById('ema').value;
+            let b = document.getElementById('pas').value;
+            let temp = false;
+            for (let i = 0; i < database.length; i++) {
+                if (database[i].email == a && database[i].passwork == b) {
+                    temp = true;
+                    dntc(database[i].ho, database[i].ten);
+                    currentUser.push(database[i].ho);
+                    currentUser.push(database[i].ten);
+                    currentUser.push(database[i].email);
+                    currentUser.push(database[i].passwork);
+                    currentUser.push(database[i].ngay);
+                    currentUser.push(database[i].thang);
+                    currentUser.push(database[i].nam);
+                    currentUser.push(database[i].gioitinh);
+                    localStorage.setItem("currentUser", JSON.stringify(currentUser));
+                    document.getElementById('dangnhap').style.display = 'none';
+                    break;
+                } else if (database[i].email == a && database[i].passwork != b) {
+                    alert('Sai mật khẩu');
+                    temp = true;
+                }
+            }
+            if (temp == false) {
+                alert('Tài khoản không đúng');
+            }
+        }
+
+        function dntc(x, y) {
+            document.getElementById("dndk").innerHTML = '';
+            document.getElementById("dndk").innerHTML = '<span onclick="menu()">' + x + "&#160;" + y + '</span>';
+        }
+        function menu() {
+            document.getElementById('menu').innerHTML = `<div id='menu1'>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <a href= "Case-study-info.html" style = "text-decoration: none;color:black">Info</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href = "Case-study.html" style = "text-decoration: none;color:black">Log out </a>                                                                                   
+                    </td>
+                </tr>
+            </table>
+        </div>`
+            setTimeout(function () {
+                document.getElementById("menu").innerHTML = "";
+            }, 3000);
+        }
+
+    </script>
+
+    <div id='bangKH' style="display: none;">
+
+    </div>
+    <script>
+        function AdminUser() {
+            let database = localStorage.getItem("database");
+            database = JSON.parse(database);
+
+            let tem = '';
+            tem += '<table border = "0" style="width: 100%;"><tr><th colspan="2">Danh sách khách hàng</th><tr>';
+            for (let i = 0; i < database.length; i++) {
+                tem += '<tr>';
+                tem += '<td style="padding-left: 10px">' + database[i].ho + ' ' + database[i].ten + '</td>' +
+                    `<td align="right"><input type="button" value="Xóa" onclick="xoaUser(${i})"></td>`;
+                tem += '</tr>';
+            }
+            tem += '<tr><td align="center" colspan = "2"><input type ="button" value="Tắt" onclick="inviAdminUser()"></td></tr></table>';
+            console.log(tem);
+            document.getElementById('bangKH').innerHTML = tem;
+        }
+        AdminUser();
+
+        function printAdminUser() {
+            document.getElementById('bangKH').style.display = 'block';
+        }
+        function inviAdminUser() {
+            document.getElementById('bangKH').style.display = 'none';
+        }
+
+        function xoaUser(x) {
+            let database = localStorage.getItem("database");
+            database = JSON.parse(database);
+            database.splice(x, 1);
+            localStorage.setItem("database", JSON.stringify(database));
+            AdminUser();
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
